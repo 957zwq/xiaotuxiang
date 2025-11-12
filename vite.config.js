@@ -10,7 +10,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 export default defineConfig({
   plugins: [
     vue(),
-    vueDevTools(),
+    // vueDevTools(), // 注释掉 Vue DevTools 插件，去除右下角悬浮图标
     AutoImport({
       resolvers: [ElementPlusResolver()],
     }),

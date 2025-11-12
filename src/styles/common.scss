@@ -4,12 +4,12 @@
 }
 
 html {
-  height: 100%;
   font-size: 14px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  height: 100%;
   color: #333;
   min-width: 1240px;
   font: 1em/1.4 'Microsoft Yahei', 'PingFang SC', 'Avenir', 'Segoe UI',
@@ -67,6 +67,9 @@ ul {
 #app {
   background: #f5f5f5;
   user-select: none;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
